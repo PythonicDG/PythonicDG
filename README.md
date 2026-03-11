@@ -120,7 +120,7 @@ class DipakGaikwad:
 
 - 🔨 **Building:** Git Repo Reviewer Agent using LangGraph + GitHub API
 - 📚 **Learning:** Advanced LangGraph patterns · Docker · Production ML deployment
-- 🎯 **Goal:** Land an AI Engineer / Agentic AI role in 2025
+- 🎯 **Goal:** Land an AI Engineer / Agentic AI role in 2026
 - 💡 **Exploring:** Multi-modal AI · Evaluation frameworks (RAGAS)
 
 ---
@@ -129,9 +129,9 @@ class DipakGaikwad:
 
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/dipak-gaikwad-0659b6205/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/dipakdg/)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/PythonicDG)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your-email@gmail.com)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:dipakgaikwadmg@gmail.com)
 
 **💼 Open to AI Engineer | Agentic AI Developer | ML Engineer roles**
 **📍 Pune, India · Remote Friendly**
