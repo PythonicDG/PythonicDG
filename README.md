@@ -145,8 +145,8 @@ class DipakGaikwad:
 
 | 🏆 Certificate | 🏫 Issuer | 🎯 Focus |
 |---|---|---|
-| 🐍 **Fullstack Data Science with Python** | iNeuron / CampusX | Python · ML · Data Science · EDA |
-| 🤖 **GenAI & Agentic AI with Python** | iNeuron / CampusX | LLMs · RAG · LangChain · Agents |
+| 🐍 **Fullstack Data Science with Python** | NareshIT | Python · ML · Data Science · EDA |
+| 🤖 **GenAI & Agentic AI with Python** | NareshIT | LLMs · RAG · LangChain · Agents |
 
 </div>
 
