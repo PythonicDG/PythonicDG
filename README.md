@@ -1,6 +1,6 @@
 <div align="center">
 
-![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&duration=3000&pause=1000&color=6E40C9&center=true&vCenter=true&width=900&lines=Hey+there!+I'm+Dipak+Gaikwad+👋;Agentic+AI+%26+ML+Developer+🤖;Building+Intelligent+Real-World+Apps+🚀;LangChain+%7C+LangGraph+%7C+RAG+%7C+Python+🐍)
+![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&duration=3000&pause=1000&color=6E40C9&center=true&vCenter=true&width=900&lines=Hey+there!+I'm+Dipak+Gaikwad+👋;Agentic+AI+%26+ML+Developer+🤖;Building+Intelligent+Real-World+Apps+🚀;LangChain+%7C+LangGraph+%7C+RAG+%7C+Python+🐍;Computer+Vision+%7C+Gemini+%7C+Groq+%7C+ChromaDB+🔥)
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=PythonicDG&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=Agentic%20AI%20%7C%20ML%20Engineer%20%7C%20Python%20Developer&descAlignY=55&descSize=18" width="100%"/>
 
@@ -18,12 +18,13 @@ class DipakGaikwad:
     role       = "Agentic AI & ML Developer"
 
     skills     = ["Agentic AI", "RAG Systems", "LLM Apps",
-                  "Computer Vision", "ML Pipelines"]
+                  "Computer Vision", "ML Pipelines", "Desktop AI Agents"]
 
     frameworks = ["LangChain", "LangGraph", "HuggingFace",
-                  "FastAPI", "Streamlit", "n8n"]
+                  "FastAPI", "Django", "Streamlit", "n8n"]
 
-    llms       = ["Groq", "Ollama", "HuggingFace Models"]
+    llms       = ["Google Gemini 2.0", "Groq (Llama 3)",
+                  "Ollama", "HuggingFace Models"]
 
     vector_dbs = ["ChromaDB", "Pinecone"]
 
@@ -42,12 +43,49 @@ class DipakGaikwad:
 
 | 🔍 Project | 🛠️ Tech Stack | 🎯 What It Does |
 |---|---|---|
-| 🗺️ **AgenticTrip-Planner** | LangGraph · LangChain · Streamlit | Multi-agent AI that plans full travel itineraries |
-| 💬 **RAG-Based-Chatbot** | LangChain · ChromaDB · Python | Document Q&A using Retrieval Augmented Generation |
-| ⚖️ **AI-Legal** | LangChain · RAG · Groq | Legal document analysis & Q&A with AI |
+| 🖥️ **[Desktop AI Surveillance Agent](https://github.com/PythonicDG/Desktop-AI-Surveillance-Agentic-ai)** | Gemini 2.0 · Groq · ChromaDB · OpenCV | Floating desktop AI that watches your screen, detects errors & remembers past fixes using RAG |
+| 🗺️ **[AgenticTrip-Planner](https://github.com/PythonicDG/AgenticTrip-Planner)** | LangGraph · LangChain · Streamlit | Multi-agent AI that plans full travel itineraries |
+| 💬 **[RAG-Based-Chatbot](https://github.com/PythonicDG/RAG-Based-Chatbot)** | LangChain · ChromaDB · Python | Document Q&A using Retrieval Augmented Generation |
+| ⚖️ **[AI-Legal](https://github.com/PythonicDG/AI-Legal)** | LangChain · RAG · Groq | Legal document analysis & Q&A with AI |
 | 🤖 **Git Repo Reviewer Agent** | LangGraph · GitHub API · Python | AI agent that audits GitHub repos *(in progress)* |
 
 </div>
+
+---
+
+## 🏆 Project Spotlight
+
+<div align="center">
+
+### 🖥️ Desktop AI Surveillance Agent
+*The most unique project in this portfolio — a real agentic AI system running on your desktop*
+
+</div>
+
+```
+┌──────────────────────────────────────────────────────────────┐
+│                Desktop AI Surveillance Agent                  │
+│                                                              │
+│  ┌──────────┐    ┌───────────────────┐    ┌──────────────┐  │
+│  │  Screen  │───▶│    AI Engine      │───▶│ Chat Window  │  │
+│  │ Capture  │    │  Gemini 2.0 Vision│    │(Floating UI) │  │
+│  └──────────┘    │  + Groq LLaMA 3   │    └──────────────┘  │
+│                  └────────┬──────────┘                       │
+│  ┌──────────┐             │            ┌──────────────────┐  │
+│  │ Monitor  │             ▼            │  Persistent RAG  │  │
+│  │  Error   │    ┌────────────────┐    │    ChromaDB      │  │
+│  │Detection │    │  OCR + Pixel   │    │ Remembers past   │  │
+│  └──────────┘    │    Diffing     │    │  errors & fixes  │  │
+│                  └────────────────┘    └──────────────────┘  │
+└──────────────────────────────────────────────────────────────┘
+```
+
+**What makes it stand out:**
+- 🔍 Watches your screen in real-time using computer vision & pixel diffing
+- 🧠 Persistent memory with ChromaDB RAG — remembers past errors & how they were fixed
+- 🤖 Multi-modal AI: Gemini 2.0 Vision as primary + Groq Llama 3 as fallback
+- 💬 Floating transparent `customtkinter` UI — always on top, non-intrusive
+- 🔒 Secure config pattern — API keys never committed to Git
 
 ---
 
@@ -60,6 +98,7 @@ class DipakGaikwad:
 ![LangGraph](https://img.shields.io/badge/LangGraph-FF6B6B?style=for-the-badge&logo=python&logoColor=white)
 ![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21F?style=for-the-badge&logo=huggingface&logoColor=black)
 ![Groq](https://img.shields.io/badge/Groq-F55036?style=for-the-badge&logo=groq&logoColor=white)
+![Gemini](https://img.shields.io/badge/Google%20Gemini-4285F4?style=for-the-badge&logo=google&logoColor=white)
 ![Ollama](https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white)
 ![n8n](https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white)
 
@@ -67,29 +106,16 @@ class DipakGaikwad:
 ![ChromaDB](https://img.shields.io/badge/ChromaDB-FF6B35?style=for-the-badge&logo=database&logoColor=white)
 ![Pinecone](https://img.shields.io/badge/Pinecone-000000?style=for-the-badge&logo=pinecone&logoColor=white)
 
-### 🐍 Languages & Frameworks
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
-
-### 📊 ML & Data Science
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
-
 ### 🧠 ML & Deep Learning
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
 ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
+![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
 ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
 
 ### 🌐 Web Frameworks
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 ![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
 ![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
@@ -139,7 +165,7 @@ class DipakGaikwad:
 
 ---
 
-## 🐍 Contribution Graph
+## 📈 Contribution Graph
 
 <div align="center">
 
@@ -152,8 +178,9 @@ class DipakGaikwad:
 ## 🌱 Currently
 
 - 🔨 **Building:** Git Repo Reviewer Agent using LangGraph + GitHub API
+- 🖥️ **Improving:** Desktop AI Surveillance Agent — adding more monitor integrations
 - 📚 **Learning:** Advanced LangGraph patterns · Docker · Production ML deployment
-- 🎯 **Goal:** Land an AI Engineer / Agentic AI role in 2025
+- 🎯 **Goal:** Land an AI Engineer / Agentic AI role in 2026
 - 💡 **Exploring:** Multi-modal AI · Evaluation frameworks (RAGAS)
 
 ---
@@ -164,7 +191,7 @@ class DipakGaikwad:
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/dipakdg/)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/PythonicDG)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:dipakgaikwadmg@gmail.com)
+[![Email](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:dipakgaikwadmg@gmail.com)
 
 **💼 Open to AI Engineer | Agentic AI Developer | ML Engineer roles**
 **📍 Pune, India · Remote Friendly**
