@@ -28,7 +28,7 @@ class DipakGaikwad:
 
     vector_dbs = ["ChromaDB", "Pinecone"]
 
-    currently  = "Building Git Repo Reviewer Agent 🔍"
+    currently  = "Job Hunt Agent 🔍"
     open_to    = "AI Engineer | Agentic AI | ML Engineer roles"
 
     def say_hi(self):
@@ -47,7 +47,7 @@ class DipakGaikwad:
 | 🗺️ **[AgenticTrip-Planner](https://github.com/PythonicDG/AgenticTrip-Planner)** | LangGraph · LangChain · Streamlit | Multi-agent AI that plans full travel itineraries |
 | 💬 **[RAG-Based-Chatbot](https://github.com/PythonicDG/RAG-Based-Chatbot)** | LangChain · ChromaDB · Python | Document Q&A using Retrieval Augmented Generation |
 | ⚖️ **[AI-Legal](https://github.com/PythonicDG/AI-Legal)** | LangChain · RAG · Groq | Legal document analysis & Q&A with AI |
-| 🤖 **Git Repo Reviewer Agent** | LangGraph · GitHub API · Python | AI agent that audits GitHub repos *(in progress)* |
+| 🤖 **Job Hunt Agent** | LangGraph · GitHub API · Python | AI agent that audits GitHub repos *(in progress)* |
 
 </div>
 
