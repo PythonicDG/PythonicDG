@@ -1,8 +1,8 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Dipak%20Gaikwad&fontSize=50&fontColor=fff&animation=twinkling&fontAlignY=35&desc=Generative%20AI%20Engineer%20%7C%20Agentic%20AI%20%7C%20LLM%20Systems&descAlignY=55&descSize=20" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=220&section=header&text=Dipak%20Gaikwad&fontSize=55&fontColor=fff&animation=twinkling&fontAlignY=38&desc=Generative%20AI%20Engineer%20%7C%20Agentic%20AI%20%7C%20LLM%20Systems&descAlignY=58&descSize=20" width="100%"/>
 
-![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=6E40C9&center=true&vCenter=true&width=900&lines=I+build+LLM-powered+systems+that+actually+ship+🚀;LangGraph+%7C+RAG+Pipelines+%7C+Agentic+AI+🤖;Multi-Agent+Orchestration+%7C+FastAPI+%7C+ChromaDB+🔥;From+Prototype+to+Production+—+Always+Deployed+✅)
+![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=6E40C9&center=true&vCenter=true&width=900&lines=I+build+LLM-powered+systems+that+actually+ship+🚀;LangGraph+%7C+RAG+Pipelines+%7C+Agentic+AI+🤖;Multi-Agent+Orchestration+%7C+FastAPI+%7C+ChromaDB+🔥;GitHub+Repository+Analysis+with+RAG+%F0%9F%94%8D;From+Prototype+to+Production+—+Always+Deployed+✅)
 
 <br/>
 
@@ -28,11 +28,11 @@ class DipakGaikwad:
     current     = "AI/ML Engineer @ R3 Systems"
 
     shipped = [
+        "AI GitHub Repository Analysis Agent (FastAPI + RAG + ChromaDB) → BUILT",
         "Stateful Telegram Fitness Agent (LangGraph + ChromaDB) → LIVE",
         "RAG-as-a-Service Platform (FastAPI + RAGAS) → DEPLOYED",
         "LangGraph Multi-Agent Research System (SSE + LangSmith) → DEPLOYED",
         "WhatsApp Business Chatbot (Meta Cloud API + n8n) → PRODUCTION",
-        "Desktop AI Surveillance Agent (Gemini Vision + ChromaDB) → BUILT",
     ]
 
     stack = {
@@ -59,6 +59,47 @@ class DipakGaikwad:
 ### 🏆 These are deployed. You can try them right now.
 
 </div>
+
+---
+
+### 🔍 AI-Powered GitHub Repository Analysis Agent ⭐ NEW
+> *Drop any GitHub repo URL — get a full RAG-powered Q&A interface over its codebase*
+
+```
+┌──────────────────────────────────────────────────────────────────┐
+│            GitHub Repository Analysis Agent — Architecture       │
+├──────────────────────┬───────────────────────────────────────────┤
+│   GitHub Loader      │  PyGithub → README + Docs + Source Code   │
+│                      │  Directory tree · Repo metadata · Topics  │
+├──────────────────────┼───────────────────────────────────────────┤
+│   Document Processor │  Language-aware chunking (15 languages)   │
+│                      │  .py .js .ts .go .rs .cpp .java + more    │
+├──────────────────────┼───────────────────────────────────────────┤
+│   Vector Store       │  ChromaDB · all-MiniLM-L6-v2 embeddings   │
+│                      │  Metadata-tagged chunks for source citation│
+├──────────────────────┼───────────────────────────────────────────┤
+│   RAG Pipeline       │  LCEL chain · Anti-hallucination prompt    │
+│                      │  Groq Llama-3 / Google Gemini switchable   │
+├──────────────────────┼───────────────────────────────────────────┤
+│   LangGraph Agent    │  load → process → store → answer → END    │
+├──────────────────────┼───────────────────────────────────────────┤
+│   FastAPI + Web UI   │  Dark-mode SPA · Real-time ingestion UX   │
+│                      │  Repo-by-name or topic search mode        │
+└──────────────────────┴───────────────────────────────────────────┘
+```
+
+**What makes it non-trivial:**
+- 🌳 **Code-aware chunking** — splits on class/function boundaries for 15 languages using LangChain's Language enum, not naive character counts
+- 🏷️ **5 document types** — metadata, directory tree, README, docs, and source code each get distinct `source_type` tags so the LLM can cite exact file paths
+- 🛡️ **Anti-hallucination system prompt** — strict ONLY-use-context rules with mandatory "I don't have enough information" fallback
+- 🔀 **Dual LLM support** — swap between Groq (Llama-3) and Google Gemini via a single env variable
+- 🗺️ **LangGraph orchestration** — 4-node stateful workflow with proper `AgentState` typing
+- 🖥️ **Full-stack SPA** — FastAPI backend + dark-mode web UI with load-by-name and topic search modes
+
+**Stack:** `FastAPI` `LangChain` `LangGraph` `ChromaDB` `Groq/Llama-3` `Google Gemini` `PyGithub` `sentence-transformers` `Render`
+
+[![Repo](https://img.shields.io/badge/GitHub-View%20Repo-181717?style=for-the-badge&logo=github)](https://github.com/PythonicDG/github-repo-analysis-agent)
+[![Live](https://img.shields.io/badge/Live%20Demo-Coming%20Soon-6E40C9?style=for-the-badge&logo=render&logoColor=white)](#)
 
 ---
 
@@ -149,22 +190,6 @@ SSE Stream → Frontend (real-time)
 
 ---
 
-### 🖥️ Desktop AI Surveillance Agent
-> *A floating AI that lives on your desktop, watches your screen, and remembers every error it's ever seen*
-
-**What makes it stand out:**
-- 👁️ Real-time screen monitoring using computer vision + pixel diffing
-- 🧠 ChromaDB RAG memory — recalls past errors and their fixes across sessions
-- 🔀 Multi-modal: Gemini 2.0 Vision (primary) + Groq Llama 3 (fallback)
-- 💬 Floating transparent `customtkinter` UI — always on top, non-intrusive
-- 🔒 Secure config — API keys never committed
-
-**Stack:** `Gemini 2.0 Vision` `Groq` `ChromaDB` `OpenCV` `customtkinter` `pytesseract`
-
-[![Repo](https://img.shields.io/badge/GitHub-View%20Repo-181717?style=for-the-badge&logo=github)](https://github.com/PythonicDG/Desktop-AI-Surveillance-Agentic-ai)
-
----
-
 ### 🗺️ AgenticTrip Planner
 > *Multi-agent AI that generates full travel itineraries using parallel agent execution*
 
@@ -239,12 +264,12 @@ SSE Stream → Frontend (real-time)
 <div align="center">
 
 ```
-✅ DEPLOYED   Telegram Fitness Coaching Agent    → LangGraph + ChromaDB + Groq
-✅ DEPLOYED   RAG-as-a-Service Platform          → FastAPI + RAGAS + Railway  
-✅ DEPLOYED   LangGraph Research Agent           → SSE Streaming + LangSmith
-✅ PRODUCTION WhatsApp Business Chatbot          → Meta Cloud API + n8n
-✅ BUILT      Desktop AI Surveillance Agent      → Gemini Vision + OpenCV
-✅ BUILT      AgenticTrip Planner                → LangGraph + Streamlit
+✅ BUILT      AI GitHub Repository Analysis Agent  → FastAPI + RAG + LangGraph + ChromaDB
+✅ DEPLOYED   Telegram Fitness Coaching Agent       → LangGraph + ChromaDB + Groq
+✅ DEPLOYED   RAG-as-a-Service Platform             → FastAPI + RAGAS + Railway
+✅ DEPLOYED   LangGraph Research Agent              → SSE Streaming + LangSmith
+✅ PRODUCTION WhatsApp Business Chatbot             → Meta Cloud API + n8n
+✅ BUILT      AgenticTrip Planner                   → LangGraph + Streamlit
 ```
 
 *The difference between a portfolio and a profile:*
@@ -292,7 +317,7 @@ SSE Stream → Frontend (real-time)
 
 ```python
 now = {
-    "building"  : "Improving RAG-as-a-Service with advanced chunking strategies",
+    "building"  : "GitHub Repo Analysis Agent — adding live URL + multi-repo support",
     "learning"  : "LLM evaluation frameworks · Advanced LangGraph patterns · MLOps",
     "exploring" : "Fine-tuning with LoRA · Semantic caching with Redis · MCP servers",
     "goal"      : "Land an AI Engineer / GenAI Engineer role in 2026 🎯",
