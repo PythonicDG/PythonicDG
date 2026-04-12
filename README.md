@@ -158,6 +158,7 @@ User Query → Query Embedding → Similarity Search → Context Injection
 **Stack:** `FastAPI` `LLaMA` `Groq API` `ChromaDB` `RAGAS` `Docker` `Railway`
 
 [![Repo](https://img.shields.io/badge/GitHub-View%20Repo-181717?style=for-the-badge&logo=github)](https://github.com/PythonicDG/RAG-Based-Chatbot)
+[![Live](https://rag-based-chatbot-production.up.railway.app/)
 
 ---
 
