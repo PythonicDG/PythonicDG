@@ -99,7 +99,7 @@ class DipakGaikwad:
 **Stack:** `FastAPI` `LangChain` `LangGraph` `ChromaDB` `Groq/Llama-3` `Google Gemini` `PyGithub` `sentence-transformers` `Render`
 
 [![Repo](https://img.shields.io/badge/GitHub-View%20Repo-181717?style=for-the-badge&logo=github)](https://github.com/PythonicDG/github-repo-analysis-agent)
-[![Live](https://img.shields.io/badge/Live%20Demo-Coming%20Soon-6E40C9?style=for-the-badge&logo=render&logoColor=white)](#)
+[![Live](https://img.shields.io/badge/Live%20Demo-Coming%20Soon-6E40C9?style=for-the-badge&logo=render&logoColor=white)](https://git-analyzer-ai.up.railway.app/)
 
 ---
 
