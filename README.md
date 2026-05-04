@@ -11,7 +11,7 @@
 [![Email](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:dipakgaikwadmg@gmail.com)
 [![Live Bot](https://img.shields.io/badge/Telegram-Live%20Bot-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/fitness_power_ai_agent_bot)
 
-![Profile Views](https://komawo.com/ghpvc/?username=PythonicDG&color=6E40C9&style=for-the-badge&label=PROFILE+VIEWS)
+![Profile Views](https://komarev.com/ghpvc/?username=PythonicDG&color=6E40C9&style=for-the-badge&label=PROFILE+VIEWS)
 
 </div>
 
@@ -263,7 +263,7 @@ SSE Stream  →  Frontend (real-time token delivery)
 <div align="center">
 
 <img src="https://github-readme-stats.vercel.app/api?username=PythonicDG&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6E40C9&icon_color=6E40C9&text_color=ffffff&rank_icon=github" width="48%" />
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=PythonicDG&theme=tokyonight&hide_border=true&background=0D1117&stroke=6E40C9&ring=6E40C9&fire=FF6B6B&currStreakLabel=6E40C9" width="48%" />
+<img src="https://streak-stats.demolab.com/?user=PythonicDG&theme=tokyonight&hide_border=true&background=0D1117&stroke=6E40C9&ring=6E40C9&fire=FF6B6B&currStreakLabel=6E40C9" width="48%" />
 
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=PythonicDG&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6E40C9&text_color=ffffff&langs_count=8" width="48%" />
 
