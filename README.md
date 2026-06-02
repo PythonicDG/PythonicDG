@@ -30,6 +30,7 @@ class DipakGaikwad:
         "Stateful Telegram Fitness Agent → LangGraph + ChromaDB + Groq  [LIVE]",
         "RAG-as-a-Service Platform       → FastAPI + RAGAS + Docker     [DEPLOYED]",
         "LangGraph Research Agent        → SSE Streaming + LangSmith    [DEPLOYED]",
+        "AI Job Assistant                → FastAPI + Streamlit + AWS EC2 [LIVE]",
         "WhatsApp Business Chatbot       → Meta Cloud API + n8n         [PRODUCTION]",
     ]
 
@@ -38,7 +39,7 @@ class DipakGaikwad:
         "LLMs"       : ["Groq / Llama-3", "Google Gemini", "OpenAI API"],
         "Backend"    : ["FastAPI", "Django REST Framework", "Flask"],
         "Vector DBs" : ["ChromaDB", "Pinecone", "Supabase"],
-        "DevOps"     : ["Docker", "Railway", "Render", "n8n"],
+        "DevOps"     : ["Docker", "Railway", "Render", "AWS EC2", "n8n"],
     }
 
     open_to = ["AI Engineer", "GenAI Engineer", "LLM Engineer"]
@@ -178,6 +179,38 @@ SSE Stream  →  Frontend (real-time token delivery)
 
 ---
 
+### 📄 AI Job Assistant ✅ LIVE
+
+> *Paste your resume and a job description — get an ATS score, gap analysis, tailored LaTeX resume, and cover letter in seconds*
+
+```
+Resume + Job Description
+        ↓
+  ATS Match Scoring  →  Keyword + skill gap analysis
+        ↓
+  Gap-Aware Prompt   →  Targeted rewrite instructions
+        ↓
+  LLM Generation     →  LaTeX resume + cover letter
+        ↓
+  Streamlit UI  ←→  FastAPI Backend  ←→  Supabase
+        ↓
+  AWS EC2 + Nginx  (production deployment)
+```
+
+**What makes it non-trivial:**
+- 🎯 **ATS scoring logic** — evaluates contextual relevance, not just keyword frequency
+- 📝 **LaTeX output** — structured document generation that doesn't break on edge cases
+- 🗣️ **Cover letter tone** — prompt engineering to avoid AI-sounding output
+- 🗄️ **Supabase storage** — resume sessions persisted for iteration
+- ☁️ **Production deployment** — AWS EC2 with Nginx reverse proxy, not just a localhost demo
+
+**Stack:** `FastAPI` `Streamlit` `Supabase` `AWS EC2` `Nginx` `Groq / OpenAI`
+
+[![Repo](https://img.shields.io/badge/GitHub-View%20Repo-181717?style=for-the-badge&logo=github)](https://github.com/PythonicDG/ai-job-assistant)
+[![Live](https://img.shields.io/badge/Live%20Demo-Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://ai-resume-converter.streamlit.app/)
+
+---
+
 ### 🗺️ AgenticTrip Planner
 
 > *Multi-agent AI generating full travel itineraries via parallel agent execution*
@@ -223,6 +256,7 @@ SSE Stream  →  Frontend (real-time token delivery)
 
 ### ☁️ DevOps & Cloud
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![AWS EC2](https://img.shields.io/badge/AWS%20EC2-FF9900?style=for-the-badge&logo=amazonec2&logoColor=white)
 ![Railway](https://img.shields.io/badge/Railway-0B0D0E?style=for-the-badge&logo=railway&logoColor=white)
 ![Render](https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=black)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
@@ -238,8 +272,8 @@ SSE Stream  →  Frontend (real-time token delivery)
 
 | 🏢 Company | 🎯 Role | 📅 Duration | 🔑 Key Contributions |
 |---|---|---|---|
-| **R3 Systems Pvt. Ltd.** | AI/ML Engineer | Nov 2025 – Present | WhatsApp AI chatbot (Meta Cloud API + n8n) · Django REST APIs · n8n workflow automation |
-| **Softseva Technologies** | AI/ML Intern | Dec 2024 – May 2025 | Deep learning models · Age & gender detection · OpenCV pipelines |
+| **R3 Systems Pvt. Ltd.** | AI/ML Engineer | Nov 2024 – Mar 2025 | WhatsApp AI chatbot (Meta Cloud API + n8n) · Django REST APIs · n8n workflow automation |
+| **Softseva Technologies** | AI/ML Intern | Dec 2023 – May 2024 | Deep learning models · Age & gender detection · OpenCV pipelines |
 
 </div>
 
